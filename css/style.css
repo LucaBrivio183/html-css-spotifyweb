@@ -4,11 +4,27 @@ COMMON
 
 __________________*/
 
+img  {
+    max-width: 100%;
+    display: block;
+}
+
+.inline-list {
+    list-style-type: none;
+    display: flex;
+}
+
 /* ______________
 
-MAIN-NAV
+NAV
 
 __________________*/
+
+nav {
+    width: 50px;
+    background-color: black;
+    color: white;
+}
 
 /* ______________
 
@@ -16,8 +32,17 @@ MAIN
 
 __________________*/
 
+main {
+    flex-grow: 1;
+}
+
 /* ______________
 
 FOOTER
 
 __________________*/
+
+footer {
+    height: 90px;
+    background-color: var(--grey);        
+}

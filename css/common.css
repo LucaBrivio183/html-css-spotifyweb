@@ -16,6 +16,11 @@ COLOR
 
 __________________*/
 
+:root {
+    --bluegrey: #141922;
+    --grey: #282828;
+}
+
 /* ______________
 
 TYPO
@@ -24,4 +29,39 @@ __________________*/
 
 body {
     font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    min-height: 350px;
+    min-width: 552px;
+}
+
+/* ______________
+
+CLASSES
+
+__________________*/
+
+.flex-row {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-beetween {
+    justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
 }
