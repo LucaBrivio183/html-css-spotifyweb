@@ -1,0 +1,27 @@
+/* ______________
+
+RESET
+
+__________________*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ______________
+
+COLOR
+
+__________________*/
+
+/* ______________
+
+TYPO
+
+__________________*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
