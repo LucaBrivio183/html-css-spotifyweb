@@ -28,6 +28,10 @@ __________________*/
     nav ul li span {
         display: block;
     }
+
+    nav #playlist {
+        display: block;
+    }
 }
 
 /* ______________

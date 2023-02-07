@@ -54,6 +54,15 @@ nav ul li span {
 nav .flex-row {
     align-items: center;
 }
+
+nav #playlist {
+    display: none;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+
+
 /* ______________
 
 MAIN
