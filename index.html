@@ -20,7 +20,7 @@
     <title>Spotify Web</title>
 </head>
 <body>
-    <div class="flex-row w-100 container">
+    <div class="flex-row align-center w-100 container">
         <!-- nav column on left -->
         <nav class="flex-col justify-beetween h-100">
             <section id="hamburger">
@@ -61,17 +61,42 @@
         </main>
     </div>
     <!-- footer with contents -->
-    <footer class="flex-row justify-beetween w-100">
-        <div id="playing">
-
-        </div>
-        <div id="media-controls">
-
-        </div>
-        <div id="device-controls">
-
-        </div>
-
+    <footer class="flex-row justify-beetween align-center w-100">
+        <section id="playing" class="flex-row">
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <p>pippo</p>
+                <small>pippo</small>
+            </div>
+            <ul>
+                <li><i>pipp</i></li>
+                <li><i>pipp</i></li>
+            </div>
+        </section>
+        <section id="media-controls" class="flex-col align-center">
+            <ul id="media-buttons" class="flex-row justify-beetween">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <div  id="media-duration"  class="w-100 flex-row justify-beetween">
+                <span>pipp</span>
+                <div class="bar">pipp</div> <!-- lenght bar dk how to style --> 
+                <span>pipp</span>
+            </div>
+        </section>
+        <section id="device-controls" class="flex-row justify-beetween">
+            <ul class="flex-row justify-beetween">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>             
+            </ul>
+            <div class="bar"></div> <!-- volume bar dk how to style -->
+        </section>
     </footer>
     <!-- /footer with controls -->   
 </body>

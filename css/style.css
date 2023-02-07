@@ -51,17 +51,12 @@ nav ul li span {
     display: none;
 }
 
-nav .flex-row {
-    align-items: center;
-}
 
 nav #playlist {
     display: none;
     overflow-y: auto;
     flex-grow: 1;
 }
-
-
 
 /* ______________
 
@@ -83,5 +78,17 @@ footer {
     height: 90px;
     background-color: var(--grey); 
     position:  absolute;
-    bottom: 0;       
+    bottom: 0;
+    min-width: fit-content;
+    padding: .625rem;
+}       
+
+
+footer section {
+    min-width: fit-content;
+    gap: .9375rem;
+}
+
+footer #media-controls {
+    flex-grow: 1;
 }
