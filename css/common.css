@@ -29,10 +29,15 @@ __________________*/
 
 body {
     font-family: 'Montserrat', sans-serif;
-    height: 100vh;
-    width: 100vw;
     min-height: 350px;
     min-width: 552px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: calc(100% - 90px);
+    background-color: var(--bluegrey);
 }
 
 /* ______________

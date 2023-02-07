@@ -26,6 +26,7 @@ nav {
     color: white;
 }
 
+
 /* ______________
 
 MAIN
@@ -44,5 +45,7 @@ __________________*/
 
 footer {
     height: 90px;
-    background-color: var(--grey);        
+    background-color: var(--grey); 
+    position:  absolute;
+    bottom: 0;       
 }
