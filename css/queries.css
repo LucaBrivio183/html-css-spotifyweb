@@ -11,7 +11,7 @@ sm: <=640px
 
 __________________*/
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 552px) {
     nav {
         width: 250px;
         padding: .625rem 1.25rem;
@@ -40,8 +40,22 @@ md: <=878px
 
 __________________*/
 
+@media screen and (min-width: 640px) {
+
+    .thumbnail {
+        width: 25%;
+    }
+}
+
 /* ______________
 
 lg: >878px
 
 __________________*/
+
+@media screen and (min-width: 878px) {
+
+    .thumbnail {
+        width: calc(100%/6);
+    }
+}

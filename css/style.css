@@ -66,6 +66,14 @@ __________________*/
 
 main {
     flex-grow: 1;
+    position: relative;
+    overflow-y: auto;
+}
+
+.thumbnail {
+    width: 50%;
+    height: 100px;
+    text-align: center;
 }
 
 /* ______________
