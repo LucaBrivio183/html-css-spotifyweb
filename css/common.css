@@ -35,16 +35,16 @@ body {
     width: 100vw;
 }
 
-.container {
-    height: calc(100% - 90px);
-    background-color: var(--bluegrey);
-}
-
 /* ______________
 
 CLASSES
 
 __________________*/
+
+.container {
+    height: calc(100% - 90px);
+    background-color: var(--bluegrey);
+}
 
 .flex-row {
     display: flex;

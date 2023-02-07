@@ -9,9 +9,13 @@ img  {
     display: block;
 }
 
-.inline-list {
+ul {
     list-style-type: none;
-    display: flex;
+}
+
+a  {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* ______________
@@ -24,9 +28,32 @@ nav {
     width: 50px;
     background-color: black;
     color: white;
+    padding: 0 .625rem;
 }
 
+nav .flex-col {
+    gap: .625rem;
+}
 
+nav li img  {
+    width: 30px;
+}
+
+nav .logo-box {
+    margin-bottom: .625rem;
+}
+
+nav .logo-box:nth-child(2) {
+    display: none;
+}
+
+nav ul li span {
+    display: none;
+}
+
+nav .flex-row {
+    align-items: center;
+}
 /* ______________
 
 MAIN
