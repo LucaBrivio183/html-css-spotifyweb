@@ -13,7 +13,7 @@ __________________*/
 
 @media screen and (min-width: 552px) {
     nav {
-        width: 250px;
+        width: var(--navwidth);
         padding: .625rem 1.25rem;
     }
 
