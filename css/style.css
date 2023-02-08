@@ -163,7 +163,7 @@ main section small {
 }  
 
 main section .thumbnail {
-    width: 50%;
+    flex-basis: 50%;
     text-align: center;
     padding: 5px;    
 }
