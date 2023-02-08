@@ -32,6 +32,10 @@ __________________*/
     nav #playlist {
         display: block;
     }
+
+    nav #profile li:first-child .icon-box {
+        margin: 0;
+    }
 }
 
 /* ______________

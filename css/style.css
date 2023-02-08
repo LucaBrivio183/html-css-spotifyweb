@@ -41,14 +41,14 @@ nav {
     width: var(--navwidthmobile);
     background-color: black;
     color: white;
-    padding: 0 .625rem;
+    padding: .625rem;
 }
 
 nav .flex-col {
     gap: .625rem;
 }
 
-nav li img  {
+nav li .icon-box  {
     width: 30px;
 }
 
@@ -60,16 +60,33 @@ nav .logo-box:nth-child(2) {
     display: none;
 }
 
+nav ul li a{
+    align-items: center;
+}
+
 nav ul li span {
     display: none;
 }
-
 
 nav #playlist {
     display: none;
     overflow-y: auto;
     flex-grow: 1;
 }
+
+nav #profile li:nth-child(2) .icon-box{
+    height: 1.875rem;
+    border-radius: 100%;
+    background-color: #808080;
+    background-image: url(../img/profile.svg);
+    object-fit:cover;
+}
+
+nav #profile li:first-child .icon-box {
+    width: 15px;
+    margin: 0 auto;
+}
+
 
 /* ______________
 
@@ -115,7 +132,6 @@ footer {
     padding: .625rem;
     min-height: var(--footerheight);
 }       
-
 
 footer section {
     min-width: fit-content;
