@@ -30,8 +30,8 @@ __________________*/
 body {
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
-    min-height: 21.875rem;
-    min-width: fit-content;
+    min-height: max-content;
+    min-width: max-content;
 }
 
 /* ______________
