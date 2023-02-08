@@ -39,6 +39,7 @@ __________________*/
 
 nav {
     width: var(--navwidthmobile);
+    min-width: var(--navwidthmobile);
     background-color: black;
     color: white;
     padding: .625rem;
@@ -47,6 +48,8 @@ nav {
 nav .flex-col {
     gap: .625rem;
 }
+
+/* hamburger */
 
 nav li .icon-box  {
     width: 30px;
@@ -60,19 +63,37 @@ nav .logo-box:nth-child(2) {
     display: none;
 }
 
-nav ul li a{
-    align-items: center;
-}
+
 
 nav ul li span {
     display: none;
+    font-size: .75rem;
 }
+
+/* playlist */
 
 nav #playlist {
     display: none;
     overflow-y: auto;
     flex-grow: 1;
 }
+
+nav #playlist h3 {
+    font-size: .875rem;
+}
+
+#add-playlist {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: white;
+    text-align: center;
+    line-height: 2.5rem;
+    color: black;
+    font-size: 1.875rem;
+}
+
+/* profile */
 
 nav #profile li:nth-child(2) .icon-box{
     height: 1.875rem;
@@ -127,10 +148,10 @@ __________________*/
 
 footer {
     height: var(--footerheight);
+    min-height: var(--footerheight);
     background-color: var(--grey); 
     min-width: fit-content;
     padding: .625rem;
-    min-height: var(--footerheight);
 }       
 
 footer section {

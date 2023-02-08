@@ -14,6 +14,7 @@ __________________*/
 @media screen and (min-width: 552px) {
     nav {
         width: var(--navwidth);
+        min-width: var(--navwidth);
         padding: .625rem 1.25rem;
     }
 
@@ -30,7 +31,7 @@ __________________*/
     }
 
     nav #playlist {
-        display: block;
+        display: flex;
     }
 
     nav #profile li:first-child .icon-box {
