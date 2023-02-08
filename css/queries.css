@@ -38,6 +38,10 @@ __________________*/
         margin: 0;
     }
 
+    main header {
+        left: var(--navwidth);
+    }
+    
     footer #playing .img-box {
         height: 1.875rem;
         width: 1.875rem;

@@ -19,6 +19,7 @@ __________________*/
 :root {
     --bluegrey: #141922;
     --grey: #282828;
+    --fontgrey: #7d7f84;
 }
 
 /* ______________
@@ -30,8 +31,6 @@ __________________*/
 body {
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
-    min-height: max-content;
-    min-width: max-content;
 }
 
 /* ______________

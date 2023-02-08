@@ -113,28 +113,45 @@ MAIN
 __________________*/
 
 main {
-    flex-grow: 1;
     position: relative;
     height: calc(100% - var(--footerheight));
     overflow-y: auto;
+    padding: 0 1.25rem;
+    color: white;
 }
 
 main header {
-    position: absolute;
+    position: fixed;
     top: 0;
+    left: var(--navwidthmobile);
     right: 0;
-    left: 0;
     z-index: 2;
     background-color: rgba(0,0,0, 0.5);
     padding: 25px;
     height: var(--footerheight);
     align-items: center;
+    min-width: fit-content;
 }
 
-.thumbnail {
+main>ul {
+    padding-top: var(--footerheight);
+    margin-top: 1.25rem;
+    font-size: .875rem;
+    color: var(--fontgrey);
+    justify-content: center;
+    row-gap: 1.875rem;
+}
+
+main section h2 {
+    font-size: 1.875rem;
+    line-height: 2.625rem;
+    padding: 1.25rem 0;
+}   
+
+main section .thumbnail {
     width: 50%;
-    height: 100px;
     text-align: center;
+    
 }
 
 /* ______________
