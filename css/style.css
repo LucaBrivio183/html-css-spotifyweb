@@ -152,6 +152,7 @@ footer {
     background-color: var(--grey); 
     min-width: fit-content;
     padding: .625rem;
+    color: white;
 }       
 
 footer section {
@@ -159,6 +160,31 @@ footer section {
     gap: .9375rem;
 }
 
+/* playing */
+
+footer #playing .img-box {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-image: url(../img/sinister.jpeg);
+    object-fit: cover;
+}
+
+footer #playing h6 {
+    font-size: .75rem;
+}
+
+footer #playing small {
+    font-size: .625rem;
+}
+
+footer #playing i {
+    font-size: 1.25rem;
+}
+
+/* media-controls */
+
 footer #media-controls {
     flex-grow: 1;
 }
+
+/* device-controls */
