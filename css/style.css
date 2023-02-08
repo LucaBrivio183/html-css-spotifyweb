@@ -113,7 +113,6 @@ MAIN
 __________________*/
 
 main {
-    position: relative;
     height: calc(100% - var(--footerheight));
     overflow-y: auto;
     padding: 0 1.25rem;
