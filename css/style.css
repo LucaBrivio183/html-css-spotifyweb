@@ -167,14 +167,13 @@ footer .level-bar {
     border-radius: 1.25rem;
 }
 
-
 /* playing */
 
 footer #playing .img-box {
     height: 2.5rem;
     width: 2.5rem;
     background-image: url(../img/sinister.jpeg);
-    object-fit: cover;
+    background-size: contain;
 }
 
 footer #playing h6 {
@@ -192,11 +191,23 @@ footer #playing i {
 /* media-controls */
 
 footer #media-controls {
-    flex-grow: 1;
+    padding: 0 .9375rem;
 }
 
 /* device-controls */
 
- #volume-bar {
+#volume-bar {
     width: 5.3125rem;
- }
+}
+
+footer .fa-shuffle, .fa-arrow-rotate-right {
+    font-size: 1rem;
+}
+
+footer .fa-backward-step, .fa-forward-step {
+    font-size: 1.25rem;
+}
+
+footer .fa-circle-play {
+    font-size: 1.875rem;
+}

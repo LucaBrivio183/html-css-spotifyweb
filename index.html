@@ -83,7 +83,7 @@
         </main>
     </div>
     <!-- footer with contents -->
-    <footer class="flex-row justify-beetween align-center w-100">
+    <footer class="flex-row justify-beetween gap-40 align-center w-100">
         <section id="playing" class="flex-row align-center gap-10">
             <div class="img-box">
             </div>
@@ -99,18 +99,26 @@
                 <li><i class="fa-regular fa-folder"></i></li>
             </div>
         </section>
-        <section id="media-controls" class="flex-col align-center">
-            <ul id="media-buttons" class="flex-row justify-beetween">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
+        <section id="media-controls" class="flex-col grow gap-10 align-center">
+            <ul id="media-buttons" class="flex-row align-center gap-20">
+                <li><i class="fa-solid fa-shuffle"></i></li>
+                <li><i class="fa-solid fa-backward-step"></i></li>
+                <li><i class="fa-regular fa-circle-play"></i></li>
+                <li><i class="fa-solid fa-forward-step"></i></li>
+                <li><i class="fa-solid fa-arrow-rotate-right"></i></li>
             </ul>
-            <div  id="media-duration"  class="w-100 flex-row justify-beetween">
-                <span>pipp</span>
-                <div class="bar">pipp</div> <!-- lenght bar dk how to style --> 
-                <span>pipp</span>
+            <div  id="media-duration"  class="w-100 flex-row justify-beetween gap-10">
+                <span>0:25</span>
+                <div id="duration-bar" class="flex-row align-center w-100"><!-- volume bar dk how to style -->
+                    <div class="level-bar w-dur">
+                    </div>
+                    <div class="dot">
+
+                    </div>
+                    <div class="max-bar grow">
+                    </div>
+                </div> <!-- lenght bar dk how to style --> 
+                <span>4:35</span>
             </div>
         </section>
         <section id="device-controls" class="flex-row align-center gap-10">
@@ -121,6 +129,9 @@
             </ul>
             <div id="volume-bar" class="flex-row align-center"><!-- volume bar dk how to style -->
                 <div class="level-bar w-vol">
+                </div>
+                <div class="dot">
+
                 </div>
                 <div class="max-bar grow">
                 </div>
