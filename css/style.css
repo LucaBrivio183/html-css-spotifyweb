@@ -63,8 +63,6 @@ nav .logo-box:nth-child(2) {
     display: none;
 }
 
-
-
 nav ul li span {
     display: none;
     font-size: .75rem;
@@ -75,7 +73,6 @@ nav ul li span {
 nav #playlist {
     display: none;
     overflow-y: auto;
-    flex-grow: 1;
 }
 
 nav #playlist h3 {
@@ -160,6 +157,17 @@ footer section {
     gap: .9375rem;
 }
 
+footer .max-bar {
+    border: .1563rem solid #5a5a5a;
+    border-radius: 1.25rem;
+}
+
+footer .level-bar {
+    border: .1563rem solid white;
+    border-radius: 1.25rem;
+}
+
+
 /* playing */
 
 footer #playing .img-box {
@@ -178,7 +186,7 @@ footer #playing small {
 }
 
 footer #playing i {
-    font-size: 1.25rem;
+    font-size: .9375rem;
 }
 
 /* media-controls */
@@ -188,3 +196,7 @@ footer #media-controls {
 }
 
 /* device-controls */
+
+ #volume-bar {
+    width: 5.3125rem;
+ }
