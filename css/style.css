@@ -148,10 +148,24 @@ main section h2 {
     padding: 1.25rem 0;
 }   
 
+main section h3 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    padding-top: 10px;
+}   
+
+
+main section small {
+    font-size: .75rem;
+    line-height: 1.0625rem;
+    color: var(--fontgrey);
+    padding: .625rem;
+}  
+
 main section .thumbnail {
     width: 50%;
     text-align: center;
-    
+    padding: 5px;    
 }
 
 /* ______________

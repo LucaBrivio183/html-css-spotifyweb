@@ -41,7 +41,7 @@ __________________*/
     main header {
         left: var(--navwidth);
     }
-    
+
     footer #playing .img-box {
         height: 1.875rem;
         width: 1.875rem;
@@ -59,7 +59,7 @@ md: <=878px
 __________________*/
 
 @media screen and (min-width: 640px) {
-
+    
     .thumbnail {
         width: 25%;
     }
