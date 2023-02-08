@@ -59,7 +59,7 @@ md: <=878px
 __________________*/
 
 @media screen and (min-width: 640px) {
-    
+
     .thumbnail {
         width: 25%;
     }
