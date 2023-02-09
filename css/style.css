@@ -47,7 +47,7 @@ nav {
     min-width: var(--navwidthmobile);
     background-color: black;
     color: white;
-    padding: .625rem;
+    padding: .3125rem .625rem;
     z-index: 3;
 }
 
@@ -85,6 +85,19 @@ nav ul li span {
 
 nav #hamburger ul li{
     padding: .3125rem 0;
+    position: relative;
+}
+
+.green-bar-left {
+    position: absolute;
+    top: 0;
+    left: -0.625rem;
+    height: 100%;
+    border-left: .1875rem solid  var(--hover-green);   
+}
+
+nav #hamburger ul li a:visited .green-bar-left {
+    display: inline-block;
 }
 
 /* playlist */
@@ -178,14 +191,13 @@ main>ul li {
     opacity: 0.6;
 }
 
-.green-bar {
+.green-bar-under {
     position: absolute;
     top: 0;
     left: 30%;
     width: 40%;
     height: 100%;
-    border-bottom: .1875rem solid  var(--hover-green);
-    display: none;
+    border-bottom: .1875rem solid  var(--hover-green);   
 }
 
 main>ul li:hover  {
@@ -193,7 +205,7 @@ main>ul li:hover  {
     opacity: 1;
 }
 
-main>ul li:visited .green-bar {
+main>ul li:visited .green-bar-under {
     display: initial;
 }
 

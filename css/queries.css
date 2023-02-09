@@ -17,6 +17,10 @@ __________________*/
         padding: .625rem 1.25rem;
     }
 
+    .green-bar-left {
+        left: -1.25rem;
+    }
+
     nav .logo-box:first-child {
         display: none;
     }
