@@ -52,20 +52,19 @@ nav {
 }
 
 nav a {
-    color: var(--fontgrey);
+    opacity: 0.6;
 }
 
 nav li:hover a {
-    color: white;
+    opacity: 1;
 }
 
-nav #playlist>a:hover #add-playlist {
-    background-color: white;
+
+nav #playlist>a:hover  {
+    opacity: 1;
 }
 
-nav #playlist>a:hover span {
-    color: white;
-}
+
 
 /* hamburger */
 
@@ -107,7 +106,7 @@ nav #playlist h3 {
     display: inline-block;
     width: 2.5rem;
     height: 2.5rem;
-    background-color: var(--fontgrey);
+    background-color: white;
     text-align: center;
     line-height: 2.5rem;
     color: black;
@@ -163,7 +162,7 @@ main>ul {
     padding-top: var(--footerheight);
     margin: 1.25rem 0;
     font-size: .875rem;
-    color: var(--fontgrey);
+    color: white;
     justify-content: center;
     row-gap: 1.875rem;
 }
@@ -172,6 +171,7 @@ main>ul li {
     position: relative;
     padding: .625rem;
     font-weight: bold;
+    opacity: 0.6;
 }
 
 .green-bar {
@@ -186,7 +186,7 @@ main>ul li {
 
 main>ul li:hover  {
     cursor: pointer;
-    color: white;
+    opacity: 1;
 }
 
 main>ul li:visited .green-bar {
