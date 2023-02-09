@@ -59,12 +59,9 @@ nav li:hover a {
     opacity: 1;
 }
 
-
 nav #playlist>a:hover  {
     opacity: 1;
 }
-
-
 
 /* hamburger */
 
@@ -86,6 +83,10 @@ nav ul li span {
     font-size: .75rem;
 }
 
+nav #hamburger ul li{
+    padding: .3125rem 0;
+}
+
 /* playlist */
 
 nav #playlist {
@@ -96,6 +97,10 @@ nav #playlist {
 
 nav #playlist ul {
     overflow: auto;
+}
+
+nav #playlist ul li{
+    padding: .625rem 0;
 }
 
 nav #playlist h3 {
@@ -119,8 +124,7 @@ nav #profile li:nth-child(2) .icon-box{
     height: 1.875rem;
     border-radius: 100%;
     background-color: #808080;
-    background-image: url(../img/profile.svg);
-    object-fit:cover;
+    overflow: hidden;
 }
 
 nav #profile li:first-child .icon-box {
