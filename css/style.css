@@ -23,7 +23,7 @@ a  {
     background-color: transparent;
     border: 2px solid white;
     border-radius: 1.5625rem;
-    padding: .9375rem 2.1875rem;
+    padding: .625rem 2.1875rem;
     text-decoration: none;
     font-size: .875rem;
     text-align: center;
@@ -51,6 +51,22 @@ nav {
     z-index: 3;
 }
 
+nav a {
+    color: var(--fontgrey);
+}
+
+nav li:hover a {
+    color: white;
+}
+
+nav #playlist>a:hover #add-playlist {
+    background-color: white;
+}
+
+nav #playlist>a:hover span {
+    color: white;
+}
+
 /* hamburger */
 
 nav li .icon-box  {
@@ -58,7 +74,7 @@ nav li .icon-box  {
 }
 
 nav .logo-box {
-    margin-bottom: .625rem;
+    margin-bottom: .9375rem;
 }
 
 nav .logo-box:nth-child(2) {
@@ -91,7 +107,7 @@ nav #playlist h3 {
     display: inline-block;
     width: 2.5rem;
     height: 2.5rem;
-    background-color: white;
+    background-color: var(--fontgrey);
     text-align: center;
     line-height: 2.5rem;
     color: black;
