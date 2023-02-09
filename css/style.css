@@ -170,12 +170,12 @@ main section small {
 }  
 
 main section>.flex-row {
-    margin: .625rem -0.3125rem;
+    margin: .625rem -0.5vw;
 }
 
 main section .thumbnail {
     text-align: center;
-    padding: .3125rem;   
+    padding: 0.5vw;   
     width: 50%;
 }
 
