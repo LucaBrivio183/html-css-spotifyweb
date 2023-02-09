@@ -255,16 +255,41 @@ footer #playing i {
     font-size: .9375rem;
 }
 
+footer .dot {
+    width: .625rem;
+    height: .625rem;
+    background-color: white;
+    border-radius: 100%;
+    margin: 0 0 0 -0.125rem;
+    display: none;
+}
+
 /* media-controls */
 
 footer #media-controls {
     padding: 0 .9375rem;
 }
 
+#duration-bar:hover .dot{
+    display: initial;
+}
+
+#duration-bar:hover .level-bar{
+    border-color: greenyellow;
+}
+
 /* device-controls */
 
 #volume-bar {
     width: 5.3125rem;
+}
+
+#volume-bar:hover .dot{
+    display: initial;
+}
+
+#volume-bar:hover .level-bar{
+    border-color: greenyellow;
 }
 
 footer .fa-shuffle, .fa-arrow-rotate-right {
