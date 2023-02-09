@@ -44,7 +44,7 @@ __________________*/
 :root {
     --footerheight: 90px;
     --navwidthmobile: 50px;
-    --navwidth: 250px;
+    --navwidth: 230px;
 }
 
 /* ______________
@@ -55,7 +55,7 @@ __________________*/
 
 .container {
     height: calc(100% - var(--footerheight));
-    min-height: calc(21.875rem - var(--footerheight));
+    overflow: hidden;
 }
 
 .flex-row {

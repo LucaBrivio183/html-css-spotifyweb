@@ -38,15 +38,11 @@ NAV
 __________________*/
 
 nav {
-    width: var(--navwidthmobile);
     min-width: var(--navwidthmobile);
     background-color: black;
     color: white;
     padding: .625rem;
-}
-
-nav .flex-col {
-    gap: .625rem;
+    z-index: 3;
 }
 
 /* hamburger */
@@ -61,6 +57,7 @@ nav .logo-box {
 
 nav .logo-box:nth-child(2) {
     display: none;
+    max-width: 8.75rem;
 }
 
 nav ul li span {
@@ -72,7 +69,12 @@ nav ul li span {
 
 nav #playlist {
     display: none;
-    overflow-y: auto;
+    overflow-y: hidden;
+    min-height: 150px;
+}
+
+nav #playlist ul {
+    overflow: auto;
 }
 
 nav #playlist h3 {
@@ -105,7 +107,6 @@ nav #profile li:first-child .icon-box {
     margin: 0 auto;
 }
 
-
 /* ______________
 
 MAIN
@@ -122,12 +123,12 @@ main {
 main header {
     position: fixed;
     top: 0;
-    left: var(--navwidthmobile);
+    left: 0;
     right: 0;
     z-index: 2;
     background-color: rgba(0,0,0, 0.5);
     padding: 25px;
-    height: var(--footerheight);
+    min-height: var(--footerheight);
     align-items: center;
     min-width: fit-content;
 }
@@ -140,6 +141,11 @@ main>ul {
     justify-content: center;
     row-gap: 1.875rem;
 }
+
+main>ul li a {
+    padding: .3125rem .625rem;
+}
+
 
 main section h2 {
     font-size: 1.875rem;
@@ -162,9 +168,9 @@ main section small {
 }  
 
 main section .thumbnail {
-    flex-basis: 50%;
     text-align: center;
-    padding: 5px;    
+    padding: 5px;   
+    /* width: 50%;  */
 }
 
 /* ______________
@@ -174,12 +180,12 @@ FOOTER
 __________________*/
 
 footer {
-    height: var(--footerheight);
     min-height: var(--footerheight);
     background-color: var(--grey); 
     min-width: fit-content;
     padding: .625rem;
     color: white;
+    z-index: 4;
 }       
 
 footer section {

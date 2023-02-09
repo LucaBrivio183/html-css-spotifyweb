@@ -13,7 +13,6 @@ __________________*/
 
 @media screen and (min-width: 552px) {
     nav {
-        width: var(--navwidth);
         min-width: var(--navwidth);
         padding: .625rem 1.25rem;
     }
@@ -38,10 +37,6 @@ __________________*/
         margin: 0;
     }
 
-    main header {
-        left: var(--navwidth);
-    }
-
     footer #playing .img-box {
         height: 1.875rem;
         width: 1.875rem;
@@ -61,7 +56,7 @@ __________________*/
 @media screen and (min-width: 640px) {
 
     .thumbnail {
-        flex-basis: 25%;
+        width: 25%;
     }
 }
 
@@ -74,6 +69,6 @@ __________________*/
 @media screen and (min-width: 878px) {
 
     .thumbnail {
-        flex-basis: calc(100%/6);
+        width: calc(100%/6);
     }
 }
