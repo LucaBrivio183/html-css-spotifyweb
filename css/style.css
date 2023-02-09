@@ -170,7 +170,7 @@ main section small {
 main section .thumbnail {
     text-align: center;
     padding: 5px;   
-    /* width: 50%;  */
+    width: 50%;
 }
 
 /* ______________
@@ -185,7 +185,7 @@ footer {
     min-width: fit-content;
     padding: .625rem;
     color: white;
-    z-index: 4;
+    z-index: 5;
 }       
 
 footer section {

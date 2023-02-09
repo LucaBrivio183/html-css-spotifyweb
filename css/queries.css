@@ -55,7 +55,7 @@ __________________*/
 
 @media screen and (min-width: 640px) {
 
-    .thumbnail {
+    main section .thumbnail {
         width: 25%;
     }
 }
@@ -68,7 +68,7 @@ __________________*/
 
 @media screen and (min-width: 878px) {
 
-    .thumbnail {
+    main section .thumbnail {
         width: calc(100%/6);
     }
 }
