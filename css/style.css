@@ -139,7 +139,7 @@ main header {
 
 main>ul {
     padding-top: var(--footerheight);
-    margin-top: 1.25rem;
+    margin: 1.25rem 0;
     font-size: .875rem;
     color: var(--fontgrey);
     justify-content: center;
@@ -150,30 +150,32 @@ main>ul li a {
     padding: .3125rem .625rem;
 }
 
-
 main section h2 {
     font-size: 1.875rem;
     line-height: 2.625rem;
-    padding: 1.25rem 0;
+    padding: .625rem 0;
 }   
 
 main section h3 {
     font-size: 1rem;
     line-height: 1.4rem;
-    padding-top: 10px;
+    padding: .625rem;
 }   
-
 
 main section small {
     font-size: .75rem;
     line-height: 1.0625rem;
     color: var(--fontgrey);
-    padding: .625rem;
+    padding: .625rem 0;
 }  
+
+main section>.flex-row {
+    margin: .625rem -0.3125rem;
+}
 
 main section .thumbnail {
     text-align: center;
-    padding: 5px;   
+    padding: .3125rem;   
     width: 50%;
 }
 
@@ -189,6 +191,7 @@ footer {
     min-width: fit-content;
     padding: .625rem;
     color: white;
+    position: relative;
     z-index: 5;
 }       
 
