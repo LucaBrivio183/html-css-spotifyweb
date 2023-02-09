@@ -185,7 +185,23 @@ main #popular-artist .thumbnail-img {
     overflow: hidden;
 }
 
+main section .thumbnail-img {
+    position: relative;
+}
 
+main section .hover-thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5vw;
+    background-color: rgba(0,0,0, 0.5);
+    display: none;
+}
+
+main section .thumbnail:hover .hover-thumbnail {
+    cursor: pointer;
+    display: flex;
+}
 
 /* ______________
 
