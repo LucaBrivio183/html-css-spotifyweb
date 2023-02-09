@@ -20,6 +20,7 @@ a  {
 
 .button {
     color: white;
+    background-color: transparent;
     border: 2px solid white;
     border-radius: 1.5625rem;
     padding: .9375rem 2.1875rem;
@@ -30,6 +31,11 @@ a  {
     max-height: fit-content;
     display: inline-block;
 } 
+
+.button:hover {
+    cursor: pointer;
+    font-size: large;
+}
 
 /* ______________
 
@@ -124,6 +130,7 @@ main {
     color: white;
 }
 
+
 main header {
     position: fixed;
     top: 0;
@@ -132,7 +139,7 @@ main header {
     z-index: 2;
     background-color: rgba(0,0,0, 0.5);
     padding: 25px;
-    min-height: var(--footerheight);
+    height: var(--footerheight);
     align-items: center;
     min-width: fit-content;
 }
