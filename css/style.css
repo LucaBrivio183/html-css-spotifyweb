@@ -130,7 +130,6 @@ main {
     color: white;
 }
 
-
 main header {
     position: fixed;
     top: 0;
@@ -153,8 +152,29 @@ main>ul {
     row-gap: 1.875rem;
 }
 
-main>ul li a {
-    padding: .3125rem .625rem;
+main>ul li {
+    position: relative;
+    padding: .625rem;
+    font-weight: bold;
+}
+
+.green-bar {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 40%;
+    height: 100%;
+    border-bottom: .1875rem solid  var(--hover-green);
+    display: none;
+}
+
+main>ul li:hover  {
+    cursor: pointer;
+    color: white;
+}
+
+main>ul li:visited .green-bar {
+    display: initial;
 }
 
 main section h2 {
@@ -185,7 +205,6 @@ main section .thumbnail {
     padding: 0.5vw;   
     width: 50%;
 }
-
 
 main #popular-artist .thumbnail-img {
     border-radius: 100%;
@@ -241,6 +260,19 @@ footer .level-bar {
     border-radius: 1.25rem;
 }
 
+footer .dot {
+    width: .625rem;
+    height: .625rem;
+    background-color: white;
+    border-radius: 100%;
+    margin: 0 0 0 -0.125rem;
+    display: none;
+}
+
+footer span{
+    font-size: .625rem;
+}
+
 /* playing */
 
 footer #playing .img-box {
@@ -256,33 +288,42 @@ footer #playing h6 {
 
 footer #playing small {
     font-size: .625rem;
+    color: var(--fontgrey);
+}
+
+footer #playing small:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: default;   
 }
 
 footer #playing i {
-    font-size: .9375rem;
+    font-size: 1.125rem;
+    color: var(--fontgrey);
 }
 
-footer .dot {
-    width: .625rem;
-    height: .625rem;
-    background-color: white;
-    border-radius: 100%;
-    margin: 0 0 0 -0.125rem;
-    display: none;
+footer #playing i:hover {
+    color: white;
 }
 
 /* media-controls */
 
 footer #media-controls {
     padding: 0 .9375rem;
+
 }
 
 #duration-bar:hover .dot{
     display: initial;
 }
 
+
 #duration-bar:hover .level-bar{
-    border-color: greenyellow;
+    border-color: var(--hover-green);
+}
+
+#duration-bar:hover {
+    cursor: grab;
 }
 
 /* device-controls */
@@ -296,7 +337,11 @@ footer #media-controls {
 }
 
 #volume-bar:hover .level-bar{
-    border-color: greenyellow;
+    border-color: var(--hover-green);
+}
+
+#volume-bar:hover {
+    cursor: grab;
 }
 
 footer .fa-shuffle, .fa-arrow-rotate-right {
@@ -309,4 +354,9 @@ footer .fa-backward-step, .fa-forward-step {
 
 footer .fa-circle-play {
     font-size: 1.875rem;
+}
+
+footer .fa-circle-play:hover {
+    font-size: 32px;
+    cursor: pointer;
 }
