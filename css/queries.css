@@ -37,6 +37,10 @@ __________________*/
         margin: 0;
     }
 
+    nav #profile li:first-child  {
+        border-bottom: 1px solid var(--fontgrey);
+    }
+
     footer #playing .img-box {
         height: 1.875rem;
         width: 1.875rem;
