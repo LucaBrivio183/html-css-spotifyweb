@@ -179,6 +179,14 @@ main section .thumbnail {
     width: 50%;
 }
 
+
+main #popular-artist .thumbnail-img {
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+
+
 /* ______________
 
 FOOTER
