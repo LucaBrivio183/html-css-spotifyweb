@@ -331,11 +331,12 @@ footer #playing small:hover {
 
 footer #playing i {
     font-size: 1.125rem;
-    color: var(--fontgrey);
+    color: white;
+    opacity: 0.6;
 }
 
 footer #playing i:hover {
-    color: white;
+    opacity: 1;
 }
 
 /* media-controls */
